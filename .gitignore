@@ -1,1 +1,39 @@
-﻿/.idea/
+﻿# 项目模板不需要版本控制的内容
+/.idea/
+/.gitignore
+/FP-Tools/bin/
+/FP-Tools/obj/
+
+# IDE和工具相关
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.vscode/
+
+# NuGet 包和缓存
+packages/
+.nuget/
+NuGet.exe
+project.lock.json
+*.nupkg
+
+# 日志和临时文件
+*.log
+*.tmp
+*.cache
+
+# 代码分析文件
+*.ruleset
+
+# 测试相关
+TestResults/
+*.coverage
+
+# macOS 系统文件
+.DS_Store
+
+# Rider 特定文件
+_ReSharper.*
+*.sln.iml
